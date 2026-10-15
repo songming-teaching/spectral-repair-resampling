@@ -1,0 +1,102 @@
+{
+ "run_id": "window-m24-dfb-n",
+ "created_utc": "2026-10-10T19:15:35+00:00",
+ "code_version": "d945f53-dirty",
+ "command": "<python>/project/paper2ed/.venv/Scripts/python.exe -m srlab.experiments.dfb_n --out results/window/dfb_N --workers 8",
+ "command_as_given": "<python>/project/paper2ed/.venv/Scripts/python.exe -m srlab.experiments.dfb_n --out results/window/dfb_N --workers 8",
+ "interpreter": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe",
+ "returncode": 0,
+ "wall_seconds": 344.073,
+ "environment": {
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.9"
+ },
+ "environment_block": {
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null,
+  "NUMEXPR_NUM_THREADS": null,
+  "PYTHONHASHSEED": "0",
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "SRLAB_EXP": null,
+  "SR_FULL": null
+ },
+ "env_pins": {
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "PYTHONHASHSEED": "0",
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null
+ },
+ "seeds": null,
+ "inputs": [
+  {
+   "path": "srlab/experiments/dfb_n.py",
+   "sha256": "671e7a0e8498366619f3940cc05be887e64bf696ff8d1a31ff5118a00c011aca",
+   "bytes": 5924,
+   "kind": "file"
+  },
+  {
+   "path": "srlab/config.py",
+   "sha256": "3df47bce2ef220b7a0ea8986ba89e10c0a17fe1ac8f74ef42c02c3c2edf507a0",
+   "bytes": 13623,
+   "kind": "file"
+  },
+  {
+   "path": "srlab/supervisor.py",
+   "sha256": "33a98906d98c26fc58bad562f4314f60e0ab5f6023841287dd3ed5aa49b6a1ce",
+   "bytes": 6589,
+   "kind": "file"
+  }
+ ],
+ "outputs": [
+  {
+   "path": "results/window/dfb_N/dfb_N_rows.json",
+   "sha256": "fceca8253b1b386fb96dde75d984ca79df58b5013abf26903a99c085c05db32c",
+   "bytes": 470158,
+   "kind": "file",
+   "canonical_sha256": "0cb55887ee9a25843b26294b4f4307385dc3bf40380dbe72c0c6fe85d8d2f8a9",
+   "content_sha256": "e9526bceda88459b407d3e89a07150c57823c431e8fb2bcea2b20681762cca18"
+  },
+  {
+   "path": "results/window/dfb_N/dfb_N_summary.json",
+   "sha256": "d1622016a8761ead306223b4bbfd06c1f20bcb03789af8285478dfe51ed354ed",
+   "bytes": 10512,
+   "kind": "file",
+   "canonical_sha256": "acc6f589b9d24f333bc659ffeb6f7a5ab53f6e5db6fab76b780d6b0575e1596c",
+   "content_sha256": "f4b6435c4dc1224aa2636064247edfa05b220269e6a7fd02376d6d06504dc9d0"
+  }
+ ],
+ "cap": {
+  "quantile_calls": 720,
+  "exceeded": 164,
+  "worst_dx_over_eta": 2.16612,
+  "policies": [
+   "report"
+  ]
+ },
+ "solver_stats": {
+  "straggler_escalation": {
+   "depth0": 0,
+   "depth1": 0,
+   "depth2": 0
+  },
+  "typed_solver_failures": 0,
+  "abstain_reasons": {}
+ },
+ "budget": null,
+ "backend": {
+  "paths": [
+   "gpu"
+  ],
+  "sources": [
+   "results/window/dfb_N/dfb_N_rows.json"
+  ]
+ },
+ "notes": null,
+ "stderr_tail": "",
+ "stdout_tail": "107/240 N2000|a10.0|rep7 190s\n108/240 N2000|a10.0|rep9 191s\n109/240 N2000|a10.0|rep4 192s\n110/240 N2000|a10.0|rep6 194s\n111/240 N2000|a10.0|rep14 194s\n112/240 N2000|a10.0|rep13 195s\n113/240 N2000|a10.0|rep15 195s\n114/240 N2000|a10.0|rep10 195s\n115/240 N2000|a10.0|rep12 196s\n116/240 N2000|a10.0|rep16 196s\n117/240 N2000|a10.0|rep11 198s\n118/240 N2000|a10.0|rep18 199s\n119/240 N2000|a10.0|rep19 199s\n120/240 N2000|a10.0|rep17 203s\n121/240 N1000|a0.3|rep0 207s\n122/240 N1000|a0.3|rep4 212s\n123/240 N1000|a0.3|rep2 213s\n124/240 N1000|a0.3|rep1 216s\n125/240 N1000|a0.3|rep6 216s\n126/240 N1000|a0.3|rep3 218s\n127/240 N1000|a0.3|rep5 224s\n128/240 N1000|a0.3|rep11 229s\n129/240 N1000|a0.3|rep10 229s\n130/240 N1000|a0.3|rep7 231s\n131/240 N1000|a0.3|rep8 231s\n132/240 N1000|a0.3|rep13 231s\n133/240 N1000|a0.3|rep12 232s\n134/240 N1000|a10.0|rep0 236s\n135/240 N1000|a0.3|rep9 236s\n136/240 N1000|a10.0|rep2 240s\n137/240 N1000|a10.0|rep1 240s\n138/240 N1000|a0.3|rep15 243s\n139/240 N1000|a10.0|rep4 244s\n140/240 N1000|a0.3|rep14 245s\n141/240 N1000|a10.0|rep3 245s\n142/240 N1000|a0.3|rep18 245s\n143/240 N1000|a10.0|rep5 247s\n144/240 N1000|a10.0|rep6 248s\n145/240 N1000|a0.3|rep19 248s\n146/240 N1000|a10.0|rep7 248s\n147/240 N1000|a10.0|rep9 248s\n148/240 N1000|a10.0|rep8 249s\n149/240 N1000|a10.0|rep10 251s\n150/240 N1000|a10.0|rep11 251s\n151/240 N1000|a10.0|rep12 252s\n152/240 N1000|a10.0|rep13 252s\n153/240 N1000|a0.3|rep16 253s\n154/240 N1000|a10.0|rep15 253s\n155/240 N1000|a10.0|rep14 253s\n156/240 N1000|a0.3|rep17 254s\n157/240 N1000|a10.0|rep17 255s\n158/240 N1000|a10.0|rep18 256s\n159/240 N1000|a10.0|rep19 256s\n160/240 N1000|a10.0|rep16 258s\n161/240 N500|a0.3|rep3 267s\n162/240 N500|a0.3|rep0 268s\n163/240 N500|a0.3|rep4 269s\n164/240 N500|a0.3|rep5 270s\n165/240 N500|a0.3|rep7 275s\n166/240 N500|a0.3|rep2 276s\n167/240 N500|a0.3|rep1 277s\n168/240 N500|a0.3|rep6 278s\n169/240 N500|a0.3|rep11 282s\n170/240 N500|a0.3|rep8 283s\n171/240 N500|a0.3|rep10 283s\n172/240 N500|a0.3|rep9 284s\n173/240 N500|a0.3|rep12 284s\n174/240 N500|a0.3|rep15 290s\n175/240 N500|a1.0|rep0 293s\n176/240 N500|a0.3|rep13 297s\n177/240 N500|a0.3|rep16 298s\n178/240 N500|a0.3|rep14 298s\n179/240 N500|a0.3|rep19 298s\n180/240 N500|a1.0|rep1 299s\n181/240 N500|a0.3|rep17 299s\n182/240 N500|a1.0|rep2 301s\n183/240 N500|a1.0|rep3 303s\n184/240 N500|a1.0|rep5 304s\n185/240 N500|a1.0|rep6 305s\n186/240 N500|a1.0|rep4 305s\n187/240 N500|a1.0|rep8 306s\n188/240 N500|a1.0|rep7 308s\n189/240 N500|a1.0|rep9 308s\n190/240 N500|a0.3|rep18 310s\n191/240 N500|a1.0|rep11 311s\n192/240 N500|a1.0|rep10 311s\n193/240 N500|a1.0|rep12 313s\n194/240 N500|a1.0|rep13 313s\n195/240 N500|a1.0|rep14 313s\n196/240 N500|a1.0|rep15 314s\n197/240 N500|a1.0|rep16 315s\n198/240 N500|a1.0|rep17 317s\n199/240 N500|a3.0|rep2 317s\n200/240 N500|a1.0|rep19 317s\n201/240 N500|a3.0|rep4 318s\n202/240 N500|a3.0|rep0 320s\n203/240 N500|a3.0|rep3 321s\n204/240 N500|a3.0|rep6 321s\n205/240 N500|a1.0|rep18 321s\n206/240 N500|a3.0|rep5 323s\n207/240 N500|a3.0|rep1 323s\n208/240 N500|a3.0|rep7 326s\n209/240 N500|a3.0|rep8 326s\n210/240 N500|a3.0|rep14 327s\n211/240 N500|a3.0|rep11 327s\n212/240 N500|a3.0|rep10 329s\n213/240 N500|a3.0|rep12 329s\n214/240 N500|a3.0|rep13 329s\n215/240 N500|a3.0|rep9 330s\n216/240 N500|a10.0|rep0 332s\n217/240 N500|a3.0|rep19 333s\n218/240 N500|a10.0|rep1 334s\n219/240 N500|a10.0|rep2 334s\n220/240 N500|a3.0|rep16 334s\n221/240 N500|a3.0|rep18 334s\n222/240 N500|a3.0|rep17 334s\n223/240 N500|a3.0|rep15 334s\n224/240 N500|a10.0|rep4 336s\n225/240 N500|a10.0|rep3 336s\n226/240 N500|a10.0|rep8 337s\n227/240 N500|a10.0|rep7 337s\n228/240 N500|a10.0|rep10 338s\n229/240 N500|a10.0|rep11 339s\n230/240 N500|a10.0|rep6 340s\n231/240 N500|a10.0|rep9 340s\n232/240 N500|a10.0|rep12 341s\n233/240 N500|a10.0|rep14 341s\n234/240 N500|a10.0|rep15 341s\n235/240 N500|a10.0|rep13 342s\n236/240 N500|a10.0|rep17 343s\n237/240 N500|a10.0|rep5 343s\n238/240 N500|a10.0|rep18 343s\n239/240 N500|a10.0|rep19 343s\n240/240 N500|a10.0|rep16 343s\ndfb_N 240 tasks, 0 abstained (cell x h), 344s -> results/window/dfb_N\n"
+}

@@ -1,0 +1,84 @@
+{
+ "run_id": "window-m19-exp3",
+ "created_utc": "2026-10-04T01:02:59+00:00",
+ "code_version": "08de3dd-dirty",
+ "command": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe -m srlab.experiments.exp3 --rule m19 --out results/window/exp3_m19",
+ "command_as_given": "python -m srlab.experiments.exp3 --rule m19 --out results/window/exp3_m19",
+ "interpreter": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe",
+ "returncode": 0,
+ "wall_seconds": 401.488,
+ "environment": {
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.9"
+ },
+ "environment_block": {
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null,
+  "NUMEXPR_NUM_THREADS": null,
+  "PYTHONHASHSEED": "0",
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "SRLAB_EXP": null,
+  "SR_FULL": null
+ },
+ "env_pins": {
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "PYTHONHASHSEED": "0",
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null
+ },
+ "seeds": null,
+ "inputs": [],
+ "outputs": [
+  {
+   "path": "results/window/exp3_m19/exp3_rows.json",
+   "sha256": "a1372a3169e0fce545f8f3151c1fb7c748324baecbf373d89bc0ce58c17e5bf3",
+   "bytes": 2289278,
+   "kind": "file",
+   "content_sha256": "576ab84100a200544db534e84d91e215a8242a025fe444abd9064b348334f940"
+  },
+  {
+   "path": "results/window/exp3_m19/budget.json",
+   "sha256": null,
+   "bytes": null,
+   "kind": null,
+   "missing": true
+  }
+ ],
+ "cap": {
+  "quantile_calls": 660,
+  "exceeded": 32,
+  "worst_dx_over_eta": 1.514875,
+  "policies": [
+   "report"
+  ]
+ },
+ "solver_stats": {
+  "straggler_escalation": {
+   "depth0": 0,
+   "depth1": 0,
+   "depth2": 0
+  },
+  "typed_solver_failures": 0,
+  "abstain_reasons": {
+   "forced_schedule": 240,
+   "supervisor_clause_a": 26
+  }
+ },
+ "budget": null,
+ "backend": {
+  "paths": [
+   "gpu"
+  ],
+  "sources": [
+   "results/window/exp3_m19/exp3_rows.json"
+  ]
+ },
+ "notes": null,
+ "stderr_tail": "",
+ "stdout_tail": "1/120 23s\n2/120 23s\n3/120 23s\n4/120 23s\n5/120 23s\n6/120 23s\n7/120 23s\n8/120 24s\n9/120 24s\n10/120 24s\n11/120 24s\n12/120 24s\n13/120 24s\n14/120 24s\n15/120 24s\n16/120 24s\n17/120 24s\n18/120 24s\n19/120 24s\n20/120 24s\n21/120 61s\n22/120 62s\n23/120 63s\n24/120 63s\n25/120 64s\n26/120 65s\n27/120 66s\n28/120 66s\n29/120 66s\n30/120 66s\n31/120 67s\n32/120 67s\n33/120 68s\n34/120 70s\n35/120 70s\n36/120 70s\n37/120 71s\n38/120 72s\n39/120 73s\n40/120 73s\n41/120 73s\n42/120 76s\n43/120 77s\n44/120 77s\n45/120 77s\n46/120 78s\n47/120 78s\n48/120 78s\n49/120 78s\n50/120 79s\n51/120 79s\n52/120 112s\n53/120 119s\n54/120 120s\n55/120 122s\n56/120 123s\n57/120 125s\n58/120 126s\n59/120 128s\n60/120 130s\n61/120 145s\n62/120 148s\n63/120 175s\n64/120 182s\n65/120 185s\n66/120 191s\n67/120 192s\n68/120 194s\n69/120 199s\n70/120 200s\n71/120 201s\n72/120 220s\n73/120 220s\n74/120 236s\n75/120 238s\n76/120 248s\n77/120 251s\n78/120 261s\n79/120 261s\n80/120 262s\n81/120 286s\n82/120 291s\n83/120 310s\n84/120 313s\n85/120 318s\n86/120 322s\n87/120 325s\n88/120 336s\n89/120 343s\n90/120 353s\n91/120 355s\n92/120 355s\n93/120 365s\n94/120 368s\n95/120 369s\n96/120 370s\n97/120 372s\n98/120 373s\n99/120 374s\n100/120 379s\n101/120 381s\n102/120 382s\n103/120 383s\n104/120 384s\n105/120 384s\n106/120 385s\n107/120 386s\n108/120 389s\n109/120 390s\n110/120 391s\n111/120 391s\n112/120 392s\n113/120 393s\n114/120 393s\n115/120 395s\n116/120 395s\n117/120 397s\n118/120 399s\n119/120 399s\n120/120 401s\nEXP-3 (m19) 120 runs, 401s -> results/window/exp3_m19 [complete]\n"
+}

@@ -1,0 +1,62 @@
+{
+ "run_id": "window-m20-tableI",
+ "created_utc": "2026-10-04T01:10:02+00:00",
+ "code_version": "08de3dd-dirty",
+ "command": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe -m srlab.experiments.tableI --regimes A_strong,G11,G12,G21,B_weak --seeds m33 --out results/window/tableI_m20 --workers 4",
+ "command_as_given": "python -m srlab.experiments.tableI --regimes A_strong,G11,G12,G21,B_weak --seeds m33 --out results/window/tableI_m20 --workers 4",
+ "interpreter": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe",
+ "returncode": 0,
+ "wall_seconds": 270.427,
+ "environment": {
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.9"
+ },
+ "environment_block": {
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null,
+  "NUMEXPR_NUM_THREADS": null,
+  "PYTHONHASHSEED": "0",
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "SRLAB_EXP": null,
+  "SR_FULL": null
+ },
+ "env_pins": {
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "PYTHONHASHSEED": "0",
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null
+ },
+ "seeds": null,
+ "inputs": [],
+ "outputs": [
+  {
+   "path": "results/window/tableI_m20",
+   "sha256": "e62a4f862690a84b2a618af9c720f3ee0b54f38701b421751785dd1956465dca",
+   "bytes": 217005,
+   "kind": "dir"
+  }
+ ],
+ "cap": {
+  "quantile_calls": 0,
+  "note": "no law_quantiles call recorded in the outputs"
+ },
+ "solver_stats": {
+  "straggler_escalation": {
+   "depth0": 0,
+   "depth1": 0,
+   "depth2": 0
+  },
+  "typed_solver_failures": 0,
+  "abstain_reasons": {}
+ },
+ "budget": null,
+ "backend": null,
+ "notes": null,
+ "stderr_tail": "",
+ "stdout_tail": "Table I (A_strong,G11,G12,G21,B_weak, seeds=m33) 20 runs, 270s -> results/window/tableI_m20 [untracked]\n"
+}

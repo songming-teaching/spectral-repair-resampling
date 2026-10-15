@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "srlab: reference code for spectral repair of resampling distortion"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "[to be filled]"
+authors:
+  - family-names: "[to be filled]"
+    given-names: "[to be filled]"
+keywords:
+  - particle filters
+  - resampling
+  - random matrix theory
+  - free deconvolution
+preferred-citation:
+  type: article
+  title: "Regularized free deconvolution for spectral repair of resampling distortion in high-dimensional particle filters"
+  authors:
+    - family-names: "[to be filled]"
+      given-names: "[to be filled]"
+  journal: "Signal Processing"
+  status: submitted
+  year: 2026

@@ -1,0 +1,78 @@
+{
+ "run_id": "window-s7-gpu",
+ "created_utc": "2026-10-04T01:29:16+00:00",
+ "code_version": "08de3dd-dirty",
+ "command": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe -m srlab.experiments.s7 --mode window --out results/window/s7 --workers 1",
+ "command_as_given": "python -m srlab.experiments.s7 --mode window --out results/window/s7 --workers 1",
+ "interpreter": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe",
+ "returncode": 0,
+ "wall_seconds": 367.685,
+ "environment": {
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.9"
+ },
+ "environment_block": {
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null,
+  "NUMEXPR_NUM_THREADS": null,
+  "PYTHONHASHSEED": "0",
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "SRLAB_EXP": null,
+  "SR_FULL": null
+ },
+ "env_pins": {
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "PYTHONHASHSEED": "0",
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null
+ },
+ "seeds": null,
+ "inputs": [],
+ "outputs": [
+  {
+   "path": "results/window/s7/s7_activation_v3_M14.json",
+   "sha256": "dac11f71795941a7954894d228eb19c740508d8716b773b3c453a02c51747b16",
+   "bytes": 145857,
+   "kind": "file",
+   "content_sha256": "47e324cfac7d6cc5eb2155e12bedb5363ade6da5a29d22af27e5426c54c2dd5b"
+  },
+  {
+   "path": "results/window/s7/s7_activation_M15_refit.json",
+   "sha256": "fad62783dc473c94437206c9f979a3c3454aa86fd5c85789471d2fa1bbbcaba5",
+   "bytes": 66058,
+   "kind": "file",
+   "content_sha256": "25557d1c8eb41fb53f525cd10c7a3967f7a14e51c5f537d693585b3ab0feaa1a"
+  }
+ ],
+ "cap": {
+  "quantile_calls": 0,
+  "note": "no law_quantiles call recorded in the outputs"
+ },
+ "solver_stats": {
+  "straggler_escalation": {
+   "depth0": 0,
+   "depth1": 0,
+   "depth2": 0
+  },
+  "typed_solver_failures": 0,
+  "abstain_reasons": {}
+ },
+ "budget": null,
+ "backend": {
+  "paths": [
+   "gpu"
+  ],
+  "sources": [
+   "results/window/s7/s7_activation_v3_M14.json",
+   "results/window/s7/s7_activation_M15_refit.json"
+  ]
+ },
+ "notes": null,
+ "stderr_tail": "",
+ "stdout_tail": "1/72 14s\n2/72 16s\n3/72 20s\n4/72 21s\n5/72 23s\n6/72 25s\n7/72 27s\n8/72 31s\n9/72 33s\n10/72 36s\n11/72 38s\n12/72 41s\n13/72 44s\n14/72 46s\n15/72 48s\n16/72 50s\n17/72 51s\n18/72 53s\n19/72 55s\n20/72 60s\n21/72 62s\n22/72 68s\n23/72 72s\n24/72 77s\n25/72 79s\n26/72 80s\n27/72 82s\n28/72 84s\n29/72 86s\n30/72 88s\n31/72 103s\n32/72 126s\n33/72 128s\n34/72 132s\n35/72 143s\n36/72 154s\n37/72 160s\n38/72 163s\n39/72 172s\n40/72 175s\n41/72 178s\n42/72 183s\n43/72 188s\n44/72 193s\n45/72 198s\n46/72 202s\n47/72 215s\n48/72 224s\n49/72 227s\n50/72 231s\n51/72 234s\n52/72 237s\n53/72 245s\n54/72 248s\n55/72 252s\n56/72 257s\n57/72 265s\n58/72 272s\n59/72 288s\n60/72 300s\n61/72 302s\n62/72 305s\n63/72 330s\n64/72 333s\n65/72 336s\n66/72 339s\n67/72 346s\n68/72 350s\n69/72 353s\n70/72 359s\n71/72 363s\n72/72 367s\nS7 (window) 72 cells, 367s -> results/window/s7 [untracked]\n"
+}

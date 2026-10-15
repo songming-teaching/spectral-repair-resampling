@@ -1,0 +1,63 @@
+{
+ "run_id": "window-m19-exp2",
+ "created_utc": "2026-10-04T00:54:46+00:00",
+ "code_version": "08de3dd-dirty",
+ "command": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe -m srlab.experiments.exp2 --rule m19 --out results/window/exp2_m19",
+ "command_as_given": "python -m srlab.experiments.exp2 --rule m19 --out results/window/exp2_m19",
+ "interpreter": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe",
+ "returncode": 0,
+ "wall_seconds": 41.299,
+ "environment": {
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.9"
+ },
+ "environment_block": {
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null,
+  "NUMEXPR_NUM_THREADS": null,
+  "PYTHONHASHSEED": "0",
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "SRLAB_EXP": null,
+  "SR_FULL": null
+ },
+ "env_pins": {
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "PYTHONHASHSEED": "0",
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null
+ },
+ "seeds": null,
+ "inputs": [],
+ "outputs": [
+  {
+   "path": "results/window/exp2_m19/exp2_rows.json",
+   "sha256": "f40eee87ab3a6303be8d466260f1c2047a026d1e7660cb1c2335759027dc6fc9",
+   "bytes": 256866,
+   "kind": "file",
+   "content_sha256": "e03b3ae65fd0b8ca54500a153f700cb6ee3f3d4b20e86498bfd145daa6b27dc6"
+  }
+ ],
+ "cap": {
+  "quantile_calls": 0,
+  "note": "no law_quantiles call recorded in the outputs"
+ },
+ "solver_stats": {
+  "straggler_escalation": {
+   "depth0": 0,
+   "depth1": 0,
+   "depth2": 0
+  },
+  "typed_solver_failures": 0,
+  "abstain_reasons": {}
+ },
+ "budget": null,
+ "backend": null,
+ "notes": null,
+ "stderr_tail": "",
+ "stdout_tail": "20/650 6s\n40/650 9s\n60/650 12s\n80/650 14s\n100/650 17s\n120/650 20s\n140/650 22s\n160/650 25s\n180/650 27s\n200/650 30s\n220/650 33s\n240/650 33s\n260/650 34s\n280/650 34s\n300/650 34s\n320/650 35s\n340/650 35s\n360/650 35s\n380/650 35s\n400/650 35s\n420/650 36s\n440/650 36s\n460/650 36s\n480/650 37s\n500/650 37s\n520/650 37s\n540/650 38s\n560/650 38s\n580/650 39s\n600/650 40s\n620/650 40s\n640/650 41s\nEXP-2 (m19) 650 tasks, 41s -> results/window/exp2_m19 [complete]\n"
+}

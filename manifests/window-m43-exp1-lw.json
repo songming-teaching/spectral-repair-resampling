@@ -1,0 +1,82 @@
+{
+ "run_id": "window-m43-exp1-lw",
+ "created_utc": "2026-10-10T18:30:50+00:00",
+ "code_version": "d945f53-dirty",
+ "command": "<python>/project/paper2ed/.venv/Scripts/python.exe -m srlab.experiments.exp1_lw --ref results/window/exp1_m19/exp1_rows.json --out results/window/exp1_lw --workers 8",
+ "command_as_given": "<python>/project/paper2ed/.venv/Scripts/python.exe -m srlab.experiments.exp1_lw --ref results/window/exp1_m19/exp1_rows.json --out results/window/exp1_lw --workers 8",
+ "interpreter": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe",
+ "returncode": 0,
+ "wall_seconds": 23.358,
+ "environment": {
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.9"
+ },
+ "environment_block": {
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null,
+  "NUMEXPR_NUM_THREADS": null,
+  "PYTHONHASHSEED": "0",
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "SRLAB_EXP": null,
+  "SR_FULL": null
+ },
+ "env_pins": {
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "PYTHONHASHSEED": "0",
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null
+ },
+ "seeds": null,
+ "inputs": [
+  {
+   "path": "srlab/experiments/exp1_lw.py",
+   "sha256": "a4b12da8998c69626972ae5cb35dd29e10db77fbfca8405521b4cca015f78e56",
+   "bytes": 5011,
+   "kind": "file"
+  },
+  {
+   "path": "srlab/baselines/ledoit_wolf.py",
+   "sha256": "2fed81acc41c8dd05f248aefdb5cd6274826033cba70d35c2835b68689fea9a2",
+   "bytes": 3902,
+   "kind": "file"
+  },
+  {
+   "path": "results/window/exp1_m19/exp1_rows.json",
+   "sha256": "8a6112c308342ca06cf31337d5c1793b47e960accda35b93702552f8d4730eb4",
+   "bytes": 1526160,
+   "kind": "file"
+  }
+ ],
+ "outputs": [
+  {
+   "path": "results/window/exp1_lw/exp1_lw_rows.json",
+   "sha256": "46e5499a4e74f9f03c19b406f061e11a485c3853b4672e85a092a694012f616e",
+   "bytes": 292921,
+   "kind": "file",
+   "content_sha256": "fde02f599627a2f36a1d5685398817d3cae96419661effdad37d194476423457"
+  }
+ ],
+ "cap": {
+  "quantile_calls": 0,
+  "note": "no law_quantiles call recorded in the outputs"
+ },
+ "solver_stats": {
+  "straggler_escalation": {
+   "depth0": 0,
+   "depth1": 0,
+   "depth2": 0
+  },
+  "typed_solver_failures": 0,
+  "abstain_reasons": {}
+ },
+ "budget": null,
+ "backend": null,
+ "notes": null,
+ "stderr_tail": "",
+ "stdout_tail": "100/900 rows 0s\n200/900 rows 1s\n300/900 rows 1s\n400/900 rows 2s\n500/900 rows 3s\n600/900 rows 4s\n700/900 rows 11s\n800/900 rows 18s\n900/900 rows 23s\nEXP-1/LW 450 tasks, 900 rows, pairing 900/900 bitwise, 23s -> results/window/exp1_lw\n"
+}

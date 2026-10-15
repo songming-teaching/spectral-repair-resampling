@@ -1,0 +1,63 @@
+{
+ "run_id": "window-m19-exp1",
+ "created_utc": "2026-10-04T00:49:29+00:00",
+ "code_version": "08de3dd-dirty",
+ "command": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe -m srlab.experiments.exp1 --rule m19 --out results/window/exp1_m19",
+ "command_as_given": "python -m srlab.experiments.exp1 --rule m19 --out results/window/exp1_m19",
+ "interpreter": "<python>\\project\\paper2ed\\.venv\\Scripts\\python.exe",
+ "returncode": 0,
+ "wall_seconds": 53.626,
+ "environment": {
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.9"
+ },
+ "environment_block": {
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null,
+  "NUMEXPR_NUM_THREADS": null,
+  "PYTHONHASHSEED": "0",
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "SRLAB_EXP": null,
+  "SR_FULL": null
+ },
+ "env_pins": {
+  "SOURCE_DATE_EPOCH": "1790553600",
+  "PYTHONHASHSEED": "0",
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null
+ },
+ "seeds": null,
+ "inputs": [],
+ "outputs": [
+  {
+   "path": "results/window/exp1_m19/exp1_rows.json",
+   "sha256": "8a6112c308342ca06cf31337d5c1793b47e960accda35b93702552f8d4730eb4",
+   "bytes": 1526160,
+   "kind": "file",
+   "content_sha256": "599036afe9984012af7463dd96b035311917c70738f561191cfb7b0fecb079dc"
+  }
+ ],
+ "cap": {
+  "quantile_calls": 0,
+  "note": "no law_quantiles call recorded in the outputs"
+ },
+ "solver_stats": {
+  "straggler_escalation": {
+   "depth0": 0,
+   "depth1": 0,
+   "depth2": 0
+  },
+  "typed_solver_failures": 0,
+  "abstain_reasons": {}
+ },
+ "budget": null,
+ "backend": null,
+ "notes": null,
+ "stderr_tail": "",
+ "stdout_tail": "5/450 3s\n10/450 3s\n15/450 3s\n20/450 3s\n25/450 3s\n30/450 4s\n35/450 4s\n40/450 4s\n45/450 4s\n50/450 5s\n55/450 5s\n60/450 5s\n65/450 6s\n70/450 6s\n75/450 6s\n80/450 7s\n85/450 7s\n90/450 7s\n95/450 8s\n100/450 8s\n105/450 9s\n110/450 9s\n115/450 10s\n120/450 10s\n125/450 11s\n130/450 11s\n135/450 12s\n140/450 12s\n145/450 13s\n150/450 13s\n155/450 13s\n160/450 13s\n165/450 14s\n170/450 14s\n175/450 14s\n180/450 15s\n185/450 15s\n190/450 15s\n195/450 16s\n200/450 16s\n205/450 17s\n210/450 17s\n215/450 17s\n220/450 18s\n225/450 18s\n230/450 18s\n235/450 19s\n240/450 19s\n245/450 19s\n250/450 20s\n255/450 21s\n260/450 22s\n265/450 22s\n270/450 22s\n275/450 22s\n280/450 23s\n285/450 24s\n290/450 25s\n295/450 25s\n300/450 27s\n305/450 28s\n310/450 28s\n315/450 29s\n320/450 30s\n325/450 31s\n330/450 31s\n335/450 32s\n340/450 34s\n345/450 34s\n350/450 35s\n355/450 35s\n360/450 36s\n365/450 37s\n370/450 38s\n375/450 40s\n380/450 40s\n385/450 40s\n390/450 41s\n395/450 42s\n400/450 44s\n405/450 45s\n410/450 46s\n415/450 46s\n420/450 47s\n425/450 49s\n430/450 51s\n435/450 52s\n440/450 52s\n445/450 52s\n450/450 53s\nEXP-1 (m19) 450 tasks, 53s -> results/window/exp1_m19 [complete]\n"
+}
